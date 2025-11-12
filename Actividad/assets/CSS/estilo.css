@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue; /* Cambiado a lightblue */
+}
+
+/* Encabezado */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header .logo {
+    width: 60px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: red; /* Fuente de color rojo */
+}
+
+/* Secciones principales */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Imágenes */
+section img {
+    width: 400px;     /* Ancho definido */
+    height: 300px;    /* Alto definido */
+    display: block;
+    margin: 0 auto;   /* Centrada con margen automático */
+    border-radius: 8px;
+}
+
+/* Tabla de posiciones */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #004080;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* Fondo suave tipo lightblue */
+body {
+  background-color: #d7ecfa;
+}
+
+/* Encabezados en rojo */
+h1, h2, h3, h4, h5, h6 {
+  color: #d10000 !important;
+}
